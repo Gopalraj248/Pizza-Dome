@@ -15,6 +15,14 @@ A high-performance, production-ready web application designed for a premium stre
 - **📱 Mobile-First Design:** Fully responsive and optimized for dine-in customers scanning QR codes on their mobile devices.
 - **🌙 Dark Mode Support:** Premium aesthetics with a toggleable sleek dark mode.
 
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+- **Node.js** (v18.0.0 or higher)
+- **npm** (comes with Node.js)
+- **MongoDB** (Local instance or MongoDB Atlas Cloud account)
+- **Razorpay Account** (For Test/Live API keys)
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, Vite, Vanilla CSS, Framer Motion (animations).
