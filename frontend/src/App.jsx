@@ -2,7 +2,6 @@ import { useState, useRef } from "react";
 import { Loader } from "./components/Loader";
 import { Navbar } from "./components/Navbar";
 import { GraphicHero } from "./components/GraphicHero";
-import { NeapolitanInfo } from "./components/NeapolitanInfo";
 import { AboutSection } from "./components/AboutSection";
 import { LiveSection } from "./components/LiveSection";
 import { MenuSection } from "./components/MenuSection";
@@ -63,7 +62,6 @@ export default function App() {
 
       <Navbar cartCount={cart.length} onCartOpen={() => setCartOpen(true)} darkMode={darkMode} setDarkMode={setDarkMode} />
       <GraphicHero darkMode={darkMode} />
-      <NeapolitanInfo darkMode={darkMode} />
       <AboutSection darkMode={darkMode} />
       <LiveSection darkMode={darkMode} />
       <MenuSection darkMode={darkMode} onCustomize={setCustomizeItem} onDirectAdd={directAdd} />
