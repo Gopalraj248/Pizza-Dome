@@ -6,3 +6,9 @@ build
 *.log
 backend/node_modules
 frontend/node_modules
+venv
+.venv
+pycache
+__pycache__
+*.pyc
+.git
